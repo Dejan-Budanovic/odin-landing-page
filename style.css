@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+main {
+    flex: 1;
+}
+
+.main-header,
+.main-footer {
+    background-color: #1f2937;
+}
+.main-header {
+    
+    h1 {
+        font-size: 48px;
+        font-weight: 900;
+        color: #f9faf8;
+    }
+    p {
+        color: #e5e7eb;;
+    }
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    ul {
+        list-style: none;
+        display: flex;
+        gap: 30px;
+    }
+    a{
+        color: #e5e7eb;;
+        text-decoration: none;
+    }
+}
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+.header-container {
+    display: flex;
+    padding: 30px 150px;
+    gap: 50px;
+}
+.header-container-img {
+    height: 200px;
+    width: 50%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.header-container-text {
+    
+}
+
+.main-container-info {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 150px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.main-container-info-holder {
+    display: flex;
+
+}
+.main-container-info-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.image-container {
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.main-container-quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    padding: 100px 150px;
+    #thor {
+        font-size: 18px;
+        font-weight: bold;
+        text-align: end;
+        padding-right: 20px;
+    }
+}
+.main-container-cta {
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 50px 100px;
+    border-radius: 8px;
+}
+    .main-container-cta-btn{
+        button {
+            background-color: transparent;
+            font-size: 20px;
+            border-color: #f9faf8;
+            color: #f9faf8;
+            border-radius: 5px;
+            padding: 5px 20px;
+            border-style: solid;
+        }
+    }
+
+.main-footer {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;padding: 20px 0;
+}
